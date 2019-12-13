@@ -16,8 +16,6 @@ struct card {
 	char Suit;
 	int Rank;
 };
-// Make global variable for 5 cards and card total
-int card(1), card(2), card(3), card(4), card(5), cardTotal;
 int main() {
 	cout << "Project: BlackJack Card Game" << endl;
 	cout << "****************************" << endl;
